@@ -3,14 +3,14 @@ entries:
   jenkins-operator:
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-12T21:42:19.426742464+01:00"
+    created: "2023-01-13T00:35:25.512982859+01:00"
     dependencies:
     - condition: webhook.enabled
       name: cert-manager
       repository: https://charts.jetstack.io
       version: 1.5.1
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
-    digest: 8bf46d199bf062486443c08b7834d7d3a725b7a4f8732bf2106096802fd6872f
+    digest: d176ccae88d684f738330e9d57885f1c8eb8a79f564c876c11db8e9b6962a9a9
     icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
@@ -333,4 +333,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-12T21:42:19.414096765+01:00"
+generated: "2023-01-13T00:35:25.498005505+01:00"
