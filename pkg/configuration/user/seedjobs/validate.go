@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
 
 	stackerr "github.com/pkg/errors"
 	"golang.org/x/crypto/ssh"

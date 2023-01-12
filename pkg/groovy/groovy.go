@@ -8,9 +8,9 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	jenkinsclient "github.com/maximba/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/pkg/log"
 
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"

@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"text/template"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/internal/render"
-	"github.com/jenkinsci/kubernetes-operator/pkg/constants"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/internal/render"
+	"github.com/maximba/kubernetes-operator/pkg/constants"
 
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -104,7 +104,7 @@ doDownload() {
     elif [[ "$version" == "latest" && -n "$JENKINS_UC_LATEST" ]]; then
         # If version-specific Update Center is available, which is the case for LTS versions,
         # use it to resolve latest versions.
-        url="$JENKINS_UC_LATEST/latest/${plugin}.hpi"
+	url="$JENKINS_UC/latest/${plugin}.hpi${JENKINS_UC_LATEST//$JENKINS_UC\/}"
     elif [[ "$version" == "experimental" && -n "$JENKINS_UC_EXPERIMENTAL" ]]; then
         # Download from the experimental update center
         url="$JENKINS_UC_EXPERIMENTAL/latest/${plugin}.hpi"

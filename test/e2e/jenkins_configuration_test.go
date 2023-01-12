@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -34,7 +34,7 @@ var _ = Describe("Jenkins controller configuration", func() {
 				Targets:               "cicd/jobs/*.jenkins",
 				Description:           "Jenkins Operator repository",
 				RepositoryBranch:      "master",
-				RepositoryURL:         "https://github.com/jenkinsci/kubernetes-operator.git",
+				RepositoryURL:         "https://github.com/maximba/kubernetes-operator.git",
 				PollSCM:               "1 1 1 1 1",
 				UnstableOnDeprecation: true,
 				BuildPeriodically:     "1 1 1 1 1",
@@ -164,7 +164,7 @@ var _ = Describe("Jenkins controller plugins test", func() {
 				Targets:               "cicd/jobs/k8s.jenkins",
 				Description:           "Jenkins Operator repository",
 				RepositoryBranch:      "master",
-				RepositoryURL:         "https://github.com/jenkinsci/kubernetes-operator.git",
+				RepositoryURL:         "https://github.com/maximba/kubernetes-operator.git",
 			},
 		}
 		groovyScripts = v1alpha2.GroovyScripts{

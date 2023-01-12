@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/log"
 
 	stackerr "github.com/pkg/errors"
 	corev1 "k8s.io/api/core/v1"

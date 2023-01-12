@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/constants"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/constants"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
@@ -206,7 +206,7 @@ func createJenkinsWithBackupAndRestoreConfigured(name, namespace string) *v1alph
 					Targets:               "cicd/jobs/*.jenkins",
 					Description:           "Jenkins Operator repository",
 					RepositoryBranch:      "master",
-					RepositoryURL:         "https://github.com/jenkinsci/kubernetes-operator.git",
+					RepositoryURL:         "https://github.com/maximba/kubernetes-operator.git",
 				},
 			},
 			Service: v1alpha2.Service{

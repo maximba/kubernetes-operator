@@ -6,12 +6,12 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/internal/render"
-	"github.com/jenkinsci/kubernetes-operator/internal/try"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/user/seedjobs"
-	"github.com/jenkinsci/kubernetes-operator/pkg/constants"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/internal/render"
+	"github.com/maximba/kubernetes-operator/internal/try"
+	jenkinsclient "github.com/maximba/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/user/seedjobs"
+	"github.com/maximba/kubernetes-operator/pkg/constants"
 
 	"github.com/bndr/gojenkins"
 	. "github.com/onsi/ginkgo"
@@ -197,7 +197,7 @@ if (jobRef.getScm().getBranches().find { val -> val.getName() == "{{ .Repository
 	throw new Exception("Specified SCM branch not found")	
 }
 
-if(jobRef.getScm().getRepositories().find { it.getURIs().find { uri -> uri.toString().equals("https://github.com/jenkinsci/kubernetes-operator.git") } } == null) {
+if(jobRef.getScm().getRepositories().find { it.getURIs().find { uri -> uri.toString().equals("https://github.com/maximba/kubernetes-operator.git") } } == null) {
 	throw new Exception("Specified SCM repositories are invalid")
 }
 

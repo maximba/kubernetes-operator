@@ -6,10 +6,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/constants"
-	"github.com/jenkinsci/kubernetes-operator/pkg/plugins"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/constants"
+	"github.com/maximba/kubernetes-operator/pkg/plugins"
 
 	docker "github.com/docker/distribution/reference"
 	stackerr "github.com/pkg/errors"

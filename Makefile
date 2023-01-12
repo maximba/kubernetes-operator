@@ -210,7 +210,7 @@ container-runtime-login: ## Log in into the Docker repository
 .PHONY: container-runtime-build-%
 container-runtime-build-%: ## Build the container
 	@echo "+ $@"
-	$(CONTAINER_RUNTIME_COMMAND) buildx build \
+	$(CONTAINER_RUNTIME_COMMAND) build \
 		--output=type=docker --platform linux/$* \
 		--build-arg GO_VERSION=$(GO_VERSION) \
 		--build-arg CTIMEVAR="$(CTIMEVAR)" \
@@ -218,7 +218,7 @@ container-runtime-build-%: ## Build the container
 		--file Dockerfile $(CONTAINER_RUNTIME_EXTRA_ARGS)
 
 .PHONY: container-runtime-build
-container-runtime-build: check-env deepcopy-gen container-runtime-build-amd64 container-runtime-build-arm64
+container-runtime-build: check-env deepcopy-gen container-runtime-build-amd64
 
 .PHONY: container-runtime-images
 container-runtime-images: ## List all local containers
@@ -226,15 +226,13 @@ container-runtime-images: ## List all local containers
 	$(CONTAINER_RUNTIME_COMMAND) images $(CONTAINER_RUNTIME_EXTRA_ARGS)
 
 define buildx-create-command
-$(CONTAINER_RUNTIME_COMMAND) buildx create \
-	--driver=docker-container \
-	--use
+$(CONTAINER_RUNTIME_COMMAND) buildx create 
 endef
 
 ## Parameter is version
 define container-runtime-push-command
 $(CONTAINER_RUNTIME_COMMAND) buildx build \
-	--output=type=registry --platform linux/amd64,linux/arm64 \
+	--output=type=registry --platform linux/amd64 \
 	--build-arg GO_VERSION=$(GO_VERSION) \
 	--build-arg CTIMEVAR="$(CTIMEVAR)" \
 	--tag $(DOCKER_ORGANIZATION)/$(DOCKER_REGISTRY):$(1) . \
@@ -436,7 +434,7 @@ helm-release-latest: helm
 	mv chart/jenkins-operator/*.tgz /tmp/jenkins-operator-charts
 	cd chart && ../bin/helm package jenkins-operator
 	mv chart/jenkins-operator-*.tgz chart/jenkins-operator/
-	bin/helm repo index chart/ --url https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/chart/ --merge chart/index.yaml
+	bin/helm repo index chart/ --url https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/ --merge chart/index.yaml
 	mv /tmp/jenkins-operator-charts/*.tgz chart/jenkins-operator/
 
 # Download and build hugo extended locally if necessary

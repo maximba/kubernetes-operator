@@ -1,4 +1,4 @@
-module github.com/jenkinsci/kubernetes-operator
+module github.com/maximba/kubernetes-operator
 
 go 1.15
 

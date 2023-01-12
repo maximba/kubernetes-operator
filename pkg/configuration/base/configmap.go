@@ -1,7 +1,7 @@
 package base
 
 import (
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
 
 	stackerr "github.com/pkg/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/pkg/configuration"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/log"
 
 	"github.com/bndr/gojenkins"
 	"github.com/golang/mock/gomock"

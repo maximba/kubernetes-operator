@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/event"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/provider"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/reason"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/event"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/provider"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/reason"
 
 	"github.com/stretchr/testify/assert"
 	corev1 "k8s.io/api/core/v1"

@@ -3,12 +3,12 @@ package base
 import (
 	"fmt"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	jenkinsclient "github.com/maximba/kubernetes-operator/pkg/client"
 
 	"github.com/bndr/gojenkins"
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
-	"github.com/jenkinsci/kubernetes-operator/pkg/plugins"
+	"github.com/maximba/kubernetes-operator/pkg/log"
+	"github.com/maximba/kubernetes-operator/pkg/plugins"
 	stackerr "github.com/pkg/errors"
 )
 

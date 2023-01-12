@@ -1,8 +1,8 @@
 package event
 
 import (
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/reason"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/reason"
 )
 
 // Phase defines the context where notification has been generated: base or user.

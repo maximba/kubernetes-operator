@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	jenkinsclient "github.com/maximba/kubernetes-operator/pkg/client"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

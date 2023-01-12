@@ -4,11 +4,11 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/event"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/reason"
-	"github.com/jenkinsci/kubernetes-operator/version"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/event"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/reason"
+	"github.com/maximba/kubernetes-operator/version"
 
 	stackerr "github.com/pkg/errors"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

@@ -5,11 +5,11 @@ import (
 	"context"
 	"time"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/event"
-	"github.com/jenkinsci/kubernetes-operator/pkg/notifications/reason"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	jenkinsclient "github.com/maximba/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/event"
+	"github.com/maximba/kubernetes-operator/pkg/notifications/reason"
 
 	stackerr "github.com/pkg/errors"
 	appsv1 "k8s.io/api/apps/v1"

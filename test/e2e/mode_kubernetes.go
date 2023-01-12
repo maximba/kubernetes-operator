@@ -4,7 +4,7 @@
 package e2e
 
 import (
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
 )
 
 const (

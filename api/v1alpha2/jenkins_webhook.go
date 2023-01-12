@@ -26,8 +26,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/jenkinsci/kubernetes-operator/pkg/log"
-	"github.com/jenkinsci/kubernetes-operator/pkg/plugins"
+	"github.com/maximba/kubernetes-operator/pkg/log"
+	"github.com/maximba/kubernetes-operator/pkg/plugins"
 
 	"golang.org/x/mod/semver"
 	"k8s.io/apimachinery/pkg/runtime"

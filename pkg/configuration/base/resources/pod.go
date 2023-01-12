@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/constants"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/constants"
 
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
@@ -69,7 +69,7 @@ func GetJenkinsMasterContainerBaseEnvs(jenkins *v1alpha2.Jenkins) []corev1.EnvVa
 
 	if len(jenkins.Spec.ConfigurationAsCode.Secret.Name) > 0 {
 		envVars = append(envVars, corev1.EnvVar{
-			Name:  "SECRETS", // https://github.com/jenkinsci/configuration-as-code-plugin/blob/master/demos/kubernetes-secrets/README.md
+			Name:  "SECRETS", // https://github.com/maximba/configuration-as-code-plugin/blob/master/demos/kubernetes-secrets/README.md
 			Value: ConfigurationAsCodeSecretVolumePath,
 		})
 	}

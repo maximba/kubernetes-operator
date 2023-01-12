@@ -4,8 +4,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/test/e2e"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/test/e2e"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

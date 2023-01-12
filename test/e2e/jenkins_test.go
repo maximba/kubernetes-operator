@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	jenkinsclient "github.com/jenkinsci/kubernetes-operator/pkg/client"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/base/resources"
-	"github.com/jenkinsci/kubernetes-operator/pkg/constants"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	jenkinsclient "github.com/maximba/kubernetes-operator/pkg/client"
+	"github.com/maximba/kubernetes-operator/pkg/configuration"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/base/resources"
+	"github.com/maximba/kubernetes-operator/pkg/constants"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"

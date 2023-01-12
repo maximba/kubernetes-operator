@@ -1,9 +1,9 @@
 package user
 
 import (
-	"github.com/jenkinsci/kubernetes-operator/api/v1alpha2"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/backuprestore"
-	"github.com/jenkinsci/kubernetes-operator/pkg/configuration/user/seedjobs"
+	"github.com/maximba/kubernetes-operator/api/v1alpha2"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/backuprestore"
+	"github.com/maximba/kubernetes-operator/pkg/configuration/user/seedjobs"
 )
 
 // Validate validates Jenkins CR Spec section

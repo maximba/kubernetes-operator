@@ -19,7 +19,7 @@ pipelineJob('e2e-jenkins-operator') {
             scm {
                 git {
                     remote {
-                        url('https://github.com/jenkinsci/kubernetes-operator.git')
+                        url('https://github.com/maximba/kubernetes-operator.git')
                         credentials('jenkins-operator')
                     }
                     branches('*/master')
