@@ -3,14 +3,14 @@ entries:
   jenkins-operator:
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2023-01-13T00:35:25.512982859+01:00"
+    created: "2023-01-13T00:57:12.247310089+01:00"
     dependencies:
     - condition: webhook.enabled
       name: cert-manager
       repository: https://charts.jetstack.io
       version: 1.5.1
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
-    digest: d176ccae88d684f738330e9d57885f1c8eb8a79f564c876c11db8e9b6962a9a9
+    digest: 6da71ce50a29d02c6e369d5552639662b74822289438562148372f0bd1abe457
     icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
@@ -18,7 +18,7 @@ entries:
     version: 0.6.2
   - apiVersion: v2
     appVersion: 0.7.1
-    created: "2022-06-22T11:26:06.518430865Z"
+    created: "2023-01-13T00:57:12.233402204+01:00"
     dependencies:
     - condition: webhook.enabled
       name: cert-manager
@@ -26,14 +26,14 @@ entries:
       version: 1.5.1
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: a52262394e66a1274cc9508f5013c4da13182317f12bf949a7c28e8916be3fb8
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.6.1.tgz
     version: 0.6.1
   - apiVersion: v2
     appVersion: 0.7.0
-    created: "2021-12-08T14:21:18.243261+01:00"
+    created: "2023-01-13T00:57:12.219351799+01:00"
     dependencies:
     - condition: webhook.enabled
       name: cert-manager
@@ -41,274 +41,274 @@ entries:
       version: 1.5.1
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 6b36f47d6647231bd21581bea6b23c3660acb11073ebde2cb47f9a700101c462
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-08-11T15:40:10.659538+02:00"
+    created: "2023-01-13T00:57:12.204018102+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
-    digest: e79615d988cc0c0bb64996394268ff87d232797b72ab9ad9a7891e9999daee9f
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    digest: bcba67a3294cfa2064c7c27bffb4a49259c3fedcb753f011e8c30af998cdc5f2
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.5.3.tgz
     version: 0.5.3
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-06-11T13:50:32.677639006+02:00"
+    created: "2023-01-13T00:57:12.202163115+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 48fbf15c3ffff7003623edcde0bec39dc37d0a62303f08066960d5fac799af90
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.5.2.tgz
     version: 0.5.2
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-06-11T13:50:32.677639006+02:00"
+    created: "2023-01-13T00:57:12.200411637+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 6f92759aaa7baafe5fe3a07f237b2c31b6921ca20cba145ee168c8fdb331d294
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-06-11T13:50:32.697552742+02:00"
+    created: "2023-01-13T00:57:12.198650092+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: aae33e13b8fcab6957b8ded2a2ae08025db38e1d86bbec8f8d9595b9eb904df1
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2021-02-19T12:36:08.931516+01:00"
+    created: "2023-01-13T00:57:12.196379769+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 7a63ffab918dc012e0231cb362f16fa33d61b6db37a70b00b8c08ceb8cc90768
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.4.3.tgz
     version: 0.4.3
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2021-02-04T08:33:21.964999+01:00"
+    created: "2023-01-13T00:57:12.195525836+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: f045e699339da7345a1b848c5a068ec932ee3da7dfccf8c1f62c4df67aca488e
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.4.2.tgz
     version: 0.4.2
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2021-02-04T08:33:21.989979+01:00"
+    created: "2023-01-13T00:57:12.194648675+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: ac45a506be78fe1b68547e9ab6423491740b57a59a3ef631313c94bd67db164d
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.4.1.tgz
     version: 0.4.1
   - apiVersion: v2
     appVersion: 0.5.0
-    created: "2021-01-23T14:09:57.322319864+01:00"
+    created: "2023-01-13T00:57:12.19381989+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 88149b9fd3a53e0850ddf0628ba07d7637e95e3a616e780497c2b3a3bed8b88a
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2020-07-19T17:26:48.811339047+02:00"
+    created: "2023-01-13T00:57:12.193015165+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: edbeeef69b7ff17d1f63f5b1bffe45c4cd5b8aa2bb329e828232d6d05fc5f1b7
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.3.4.tgz
     version: 0.3.4
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.186259+02:00"
+    created: "2023-01-13T00:57:12.192239741+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: a934c20125fe0b29697a4e2d04e2395847c82a412ca454b6164eb97df2cc4574
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.3.3.tgz
     version: 0.3.3
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.210568+02:00"
+    created: "2023-01-13T00:57:12.191546299+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 929e7163565ec2e8902a72087b555cf8dccfee19b00252dcaec06a0fd01ea9e3
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.3.2.tgz
     version: 0.3.2
   - apiVersion: v2
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.209641+02:00"
+    created: "2023-01-13T00:57:12.190841948+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 40e8a062a5f046595eb5b74d9b6dedc4f30432bbdd054f0aadee37200213f915
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.3.1.tgz
     version: 0.3.1
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.2086+02:00"
+    created: "2023-01-13T00:57:12.190160252+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 64af56f62b3706e4c5b55055047ad6a238e74c8958a89b1a4c2866110a3077a6
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.2.4.tgz
     version: 0.2.4
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.207156+02:00"
+    created: "2023-01-13T00:57:12.189449346+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: c5679f1509862ddf1df4432ff210eaece42ca0f62a8775d15e0912dfeb680d8c
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.2.3.tgz
     version: 0.2.3
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.205392+02:00"
+    created: "2023-01-13T00:57:12.188198453+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: ea92693fd3b3ad41a81fbc02502f6dd207ea36610509e10509cd9d4ff8a87b1e
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.2.2.tgz
     version: 0.2.2
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.203501+02:00"
+    created: "2023-01-13T00:57:12.187463312+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: d8eba6a0285f449eee933c875a2fa540131ff16471df77b24fa03c5b1e90a023
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.2.1.tgz
     version: 0.2.1
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.201687+02:00"
+    created: "2023-01-13T00:57:12.186719445+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 35ea98d6836b09946dcb1cb250c5e2b84391b92033f6ce8a0124ae15169b9db7
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.2.0.tgz
     version: 0.2.0
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.200536+02:00"
+    created: "2023-01-13T00:57:12.186130715+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 97050b9409a18b4349f108d49022d0fe7cad29b2afc7866db6ae781e1b2237a6
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.199094+02:00"
+    created: "2023-01-13T00:57:12.185410513+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: e682ccc9359a6b1674711812f440a7aa1bbc0125e0148ed6ad388bbc5b08b32c
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.1.2.tgz
     version: 0.1.2
   - apiVersion: v1
     appVersion: 0.4.0
-    created: "2020-06-18T11:48:46.197722+02:00"
+    created: "2023-01-13T00:57:12.184822912+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 3ac5720c5d1b46837018763710e54e75c1d156b15d64cc4727f0000858f85f32
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v1
     appVersion: 0.3.3
-    created: "2020-06-18T11:48:46.195937+02:00"
+    created: "2023-01-13T00:57:12.184101941+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: b45bd9e29735ecd62a7d4f1a146ed40288ca2c6871f447e8d2bc59c302388b31
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.1.0.tgz
     version: 0.1.0
   - apiVersion: v1
     appVersion: 0.3.3
-    created: "2020-06-18T11:48:46.194985+02:00"
+    created: "2023-01-13T00:57:12.183533013+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: a8b2c7f7354d54b94e438ab8eccd220031c7066d97c4a8253da2919fdaaff34f
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.8.tgz
     version: 0.0.8
   - apiVersion: v1
     appVersion: 0.3.3
-    created: "2020-06-18T11:48:46.194176+02:00"
+    created: "2023-01-13T00:57:12.183092125+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 8957f24ee68d23e903d4b9666b7670d1569a4fb5da04d548b756ea8324a96eb4
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.7.tgz
     version: 0.0.7
   - apiVersion: v1
     appVersion: 0.3.2
-    created: "2020-06-18T11:48:46.193337+02:00"
+    created: "2023-01-13T00:57:12.182662164+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: a64b28ee639a2c2af662f66437db497dcdd36742c50aa664cfd6d023f8e6d4bd
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.6.tgz
     version: 0.0.6
   - apiVersion: v1
     appVersion: 0.3.1
-    created: "2020-06-18T11:48:46.192519+02:00"
+    created: "2023-01-13T00:57:12.182231327+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: e6914be2c96a7ae8c7794e0d356b073394d1ee99465c7a26aeb77a22a5b4b22d
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.5.tgz
     version: 0.0.5
   - apiVersion: v1
     appVersion: 0.3.0
-    created: "2020-06-18T11:48:46.191421+02:00"
+    created: "2023-01-13T00:57:12.18180977+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 82d3748cce50ebc9fdcebba419c11dac0557e5ba2441b8deb5da49aa879b692a
-    icon: https://raw.githubusercontent.com/maximba/kubernetes-operator/master/assets/jenkins-operator-icon.png
+    icon: https://raw.githubusercontent.com/jenkinsci/kubernetes-operator/master/assets/jenkins-operator-icon.png
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.4.tgz
     version: 0.0.4
   - apiVersion: v1
     appVersion: 0.2.2
-    created: "2020-06-18T11:48:46.190238+02:00"
+    created: "2023-01-13T00:57:12.181395399+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 2b2e4d9399fdf49e6ed33753fd69619068da16b1ffbae6f27bce89cbf83e8174
     name: jenkins-operator
@@ -317,7 +317,7 @@ entries:
     version: 0.0.3
   - apiVersion: v1
     appVersion: 0.2.2
-    created: "2020-06-18T11:48:46.189131+02:00"
+    created: "2023-01-13T00:57:12.180963663+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: 16229e795a171427cd019fd623569aab1672618d7bc1d6b2c9fd627310fa00ef
     name: jenkins-operator
@@ -326,11 +326,11 @@ entries:
     version: 0.0.2
   - apiVersion: v1
     appVersion: 0.2.0
-    created: "2020-06-18T11:48:46.188195+02:00"
+    created: "2023-01-13T00:57:12.180000788+01:00"
     description: Kubernetes native operator which fully manages Jenkins on Kubernetes
     digest: d5828cba35e435fc6526d235ec98b3ffdb8d6ed20b82c953a81a5c1f660d1fb3
     name: jenkins-operator
     urls:
     - https://raw.githubusercontent.com/maximba/kubernetes-operator/master/chart/jenkins-operator/jenkins-operator-0.0.1.tgz
     version: 0.0.1
-generated: "2023-01-13T00:35:25.498005505+01:00"
+generated: "2023-01-13T00:57:12.17945824+01:00"
